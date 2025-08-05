@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = 'cqi0fepr01qgbqu624i0cqi0fepr01qgbqu624ig'; // Replace with your actual Finnhub API key
+    const apiKey = 'd28u8e9r01qle9gsumlgd28u8e9r01qle9gsumm0'; // Replace with your actual Finnhub API key
     const stocks = {
         'sp500': 'AAPL',
         'dowjones': 'NVDA',
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function fetchStockData(stockId, symbol) {
-    const apiKey = 'cpv98ihr01qhmaus0ktgcpv98ihr01qhmaus0ku0'; // Replace with your actual Finnhub API key
+    const apiKey = 'd28u8e9r01qle9gsumlgd28u8e9r01qle9gsumm0'; // Replace with your actual Finnhub API key
     fetch(`https://finnhub.io/api/v1/quote?symbol=${symbol}&token=${apiKey}`)
         .then(response => response.json())
         .then(data => {
@@ -51,7 +51,7 @@ function fetchStockData(stockId, symbol) {
 
 function search() {
     const query = document.querySelector('#searchInput').value;
-    const apiKey = 'cpv98ihr01qhmaus0ktgcpv98ihr01qhmaus0ku0'; // Replace with your actual Finnhub API key
+    const apiKey = 'd28u8e9r01qle9gsumlgd28u8e9r01qle9gsumm0'; // Replace with your actual Finnhub API key
 
     fetch(`https://finnhub.io/api/v1/search?q=${query}&token=${apiKey}`)
         .then(response => response.json())

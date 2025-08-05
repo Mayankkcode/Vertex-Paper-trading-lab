@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = 'cqhbms9r01qm46d7fpkgcqhbms9r01qm46d7fpl0';
+    const apiKey = 'd28u8e9r01qle9gsumlgd28u8e9r01qle9gsumm0';
     const gainersList = document.getElementById('gainers-list');
     const losersList = document.getElementById('losers-list');
 

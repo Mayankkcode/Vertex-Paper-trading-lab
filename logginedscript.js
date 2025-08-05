@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = 'cqfir39r01qle0e3q9k0cqfir39r01qle0e3q9kg'; // Replace with your actual Finnhub API key
+    const apiKey = 'd28u8e9r01qle9gsumlgd28u8e9r01qle9gsumm0'; // Replace with your actual Finnhub API key
 
     const stocks = {
         'sp500': 'AAPL',
