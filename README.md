@@ -21,6 +21,7 @@ This project is a Python based Trading Web Platform that uses Flask.
 
 3. Create a virtual environment (optional but recommended).
     ```bash
+    you can uv for creating virtual environment it will be more fast to use uv venv
     python3 -m venv venv
     source venv/bin/activate
     ```
